@@ -1,0 +1,385 @@
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:10:37.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="miYMJ61ZGCkGYfB0_Dun" version="21.3.7" type="device">
+  <diagram name="第 1 页" id="Dn2LxJhiG85wU0qblkTt">
+    <mxGraphModel dx="1621" dy="2324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-1" target="ZJ2Vto5LHIsEKG5cIVXg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-1" value="流程部署" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-2" target="ZJ2Vto5LHIsEKG5cIVXg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-2" value="查询流程定义id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="414" y="235" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-4" target="ZJ2Vto5LHIsEKG5cIVXg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-4" value="发起认定(启动流程定义)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="780" y="235" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-6" target="ZJ2Vto5LHIsEKG5cIVXg-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-6" value="经营机构初审" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-8" target="ZJ2Vto5LHIsEKG5cIVXg-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-8" value="启动流程实例需要传两个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;1.流程定义id&lt;br style=&quot;font-size: 16px;&quot;&gt;2.业务数据的唯一标识(businessKey)&lt;br style=&quot;font-size: 16px;&quot;&gt;启动成功后会返回流程实例的id" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="748.75" y="630" width="197.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-10" target="ZJ2Vto5LHIsEKG5cIVXg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-10" value="可以根据key进行查询,&lt;br style=&quot;font-size: 16px;&quot;&gt;key定义在bpmn流程图文件中,&lt;br style=&quot;font-size: 16px;&quot;&gt;风险五级分类的key为:&lt;br style=&quot;font-size: 16px;&quot;&gt;five-level-risk-classification,&lt;br style=&quot;font-size: 16px;&quot;&gt;根据key查询需要关注version, 此处暂时不需要考虑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="375.44" y="380" width="227.12" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-13" target="ZJ2Vto5LHIsEKG5cIVXg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-13" value="经营机构初审节点的待办人默认为发起认定的用户" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1081.5" y="380" width="179" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-16" target="ZJ2Vto5LHIsEKG5cIVXg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-16" value="发起认定之前需要根据业务数据id查询该条数据是否已发起过认定流程,如果查询结果不为空,则已存在认定流程,不能再次发起认定流程;反之,则可以发起认定流程" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="753.75" y="390" width="187.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-20" target="ZJ2Vto5LHIsEKG5cIVXg-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-20" value="前端需要请求根据用户名查询待办任务的接口,查询当前用户的该业务主键对应的待办任务.&lt;br style=&quot;font-size: 16px;&quot;&gt;该接口需要传一个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;流程实例id" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1081.5" y="557.5" width="178.5" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-24" target="ZJ2Vto5LHIsEKG5cIVXg-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-24" value="流程实例id获取方式:&lt;br style=&quot;font-size: 16px;&quot;&gt;启动流程定义成功后会返回一个,或者调用根据 business_key 批量查询当前仍在运行中的唯一实例接口可以查询到流程实例id" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1071.5" y="780" width="198.5" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-27" target="ZJ2Vto5LHIsEKG5cIVXg-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-27" value="当用户填写完表单之后,点击确定,需要将表单数据保存到数据库中,然后调用完成任务接口, 该接口在该节点传参为:&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;serviceResult&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;reason&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;filePath&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1002.5" width="260" height="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-31" target="ZJ2Vto5LHIsEKG5cIVXg-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-31" value="经营机构审查" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-33" target="ZJ2Vto5LHIsEKG5cIVXg-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-33" value="该节点为并行节点,需要后端新建一个类,&lt;br style=&quot;font-size: 16px;&quot;&gt;com.kdp.web.external.executionlistener.FirstTrialListener&lt;br style=&quot;font-size: 16px;&quot;&gt;该类需要实现ExecutionListener这个接口,并重写notify方法,在该方法中new一个HashMap&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;, 向map中put用户名, key为censorList, list中将经营机构审查角色下的所有用户名都添加进去" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="390" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-35" target="ZJ2Vto5LHIsEKG5cIVXg-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-35" value="经营机构审查角色下的所有用户都会收到这个待办任务,当其中一个完成任务,该任务便会到达下一个节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1467.5" y="620" width="245" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-38" target="ZJ2Vto5LHIsEKG5cIVXg-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-38" value="收到任务的用户可以在自己的待办任务界面查看到该任务,点击审查之后,可以查看初审的表单内容,并根据内容进行审批,收到的用户只要有一个人审批,流程便会通过该节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1467.5" y="860" width="245" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-40" target="ZJ2Vto5LHIsEKG5cIVXg-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-40" target="ZJ2Vto5LHIsEKG5cIVXg-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-40" value="审批通过,前端需要调用接口将该节点的表单内容存到数据库中,然后调用完成任务接口,该接口需要传两个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;审批通过:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;审批不通过:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1458.75" y="1070" width="261.25" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-45" value="如果审批不通过则该流程直接结束,&lt;br style=&quot;font-size: 16px;&quot;&gt;如果审批通过则该流程进入下一个节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1457.5" y="1510" width="262.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-47" target="ZJ2Vto5LHIsEKG5cIVXg-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-47" value="经营机构认定人员权限内终审" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2110" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-49" target="ZJ2Vto5LHIsEKG5cIVXg-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-49" value="该节点为并行节点,需要后端新建一个类,&lt;br style=&quot;font-size: 16px;&quot;&gt;com.kdp.web.external.executionlistener.FinalJudgmentListener&lt;br style=&quot;font-size: 16px;&quot;&gt;该类需要实现ExecutionListener这个接口,并重写notify方法,在该方法中new一个HashMap&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;, 向map中put用户名, key为authorizedList, list中将经营机构认定人员权限内终审角色下的所有用户名都添加进去" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1942.5" y="385" width="475" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-52" target="ZJ2Vto5LHIsEKG5cIVXg-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2180" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-52" value="经营机构认定人员权限内终审下的所有用户都会收到这个待办任务,当其中一个完成任务,该任务便会到达下一个节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2057.5" y="620" width="245" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-54" target="ZJ2Vto5LHIsEKG5cIVXg-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-54" value="收到任务的用户可以在自己的待办任务界面查看到该任务,点击审查之后,可以查看初审的表单内容,并根据内容进行审批,收到的用户只要有一个人审批,流程便会通过该节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2057.5" y="860" width="245" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-56" target="ZJ2Vto5LHIsEKG5cIVXg-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-56" value="审批通过,前端需要调用接口将该节点的表单内容存到数据库中,然后调用完成任务接口,该接口需要传两个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;审批通过:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;退回上一级:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 220);&quot;&gt;:&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;退回初分:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 220);&quot;&gt;:&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;3&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2048.75" y="1070" width="261.25" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-57" target="ZJ2Vto5LHIsEKG5cIVXg-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-57" value="总行审查人员审查" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2780" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-59" target="ZJ2Vto5LHIsEKG5cIVXg-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-59" value="该节点为并行节点,需要后端新建一个类,&lt;br style=&quot;font-size: 16px;&quot;&gt;com.kdp.web.external.executionlistener.HeadFirstTrialListener&lt;br style=&quot;font-size: 16px;&quot;&gt;该类需要实现ExecutionListener这个接口,并重写notify方法,在该方法中new一个HashMap&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;, 向map中put用户名, key为headcensorList, list中将总行审查人员审查角色下的所有用户名都添加进去" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2612.5" y="385" width="475" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-60" value="前端可以根据当前用户的待办任务的taskDefinitionKey字段来判断应该展示什么样的审批表单;&lt;br&gt;taskDefinitionKey:&lt;br&gt;经营机构初分:initial-allocation&lt;br&gt;经营机构审查:business-organization-review&lt;br&gt;经营机构认定人员权限内终审:business-organization-review-final&lt;br&gt;总行审查人员审查:head-office-review&lt;br&gt;总行认定人员终审:head-office-review-final&lt;br&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="50" y="740" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-63" target="ZJ2Vto5LHIsEKG5cIVXg-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2850" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-63" value="总行审查人员审查下的所有用户都会收到这个待办任务,当其中一个完成任务,该任务便会到达下一个节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2727.5" y="620" width="245" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-65" target="ZJ2Vto5LHIsEKG5cIVXg-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-65" value="收到任务的用户可以在自己的待办任务界面查看到该任务,点击审查之后,可以查看初审的表单内容,并根据内容进行审批,收到的用户只要有一个人审批,流程便会通过该节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2727.5" y="860" width="245" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-67" target="ZJ2Vto5LHIsEKG5cIVXg-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2838.75" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-67" value="审批通过,前端需要调用接口将该节点的表单内容存到数据库中,然后调用完成任务接口,该接口需要传两个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;审批通过:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;退回上一级:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 220);&quot;&gt;:&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2719.38" y="1070" width="261.25" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-68" target="ZJ2Vto5LHIsEKG5cIVXg-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-68" value="总行认定人员终审" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3423.75" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-70" target="ZJ2Vto5LHIsEKG5cIVXg-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-70" value="该节点为并行节点,需要后端新建一个类,&lt;br style=&quot;font-size: 16px;&quot;&gt;com.kdp.web.external.executionlistener.HeadFinalJudgmentListener&lt;br style=&quot;font-size: 16px;&quot;&gt;该类需要实现ExecutionListener这个接口,并重写notify方法,在该方法中new一个HashMap&amp;lt;String,List&amp;lt;String&amp;gt;&amp;gt;, 向map中put用户名, key为headauthorizedList, list中将总行认定人员终审&lt;br style=&quot;font-size: 16px;&quot;&gt;角色下的所有用户名都添加进去" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="380" width="507.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-73" target="ZJ2Vto5LHIsEKG5cIVXg-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3493.75" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-73" value="总行认定人员终审下的所有用户都会收到这个待办任务,当其中一个完成任务,该任务便会到达下一个节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3371.24" y="615" width="245" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-75" target="ZJ2Vto5LHIsEKG5cIVXg-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-75" value="收到任务的用户可以在自己的待办任务界面查看到该任务,点击审查之后,可以查看初审的表单内容,并根据内容进行审批,收到的用户只要有一个人审批,流程便会通过该节点" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3371.24" y="855" width="245" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-77" target="ZJ2Vto5LHIsEKG5cIVXg-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3482.49" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-77" value="审批通过,前端需要调用接口将该节点的表单内容存到数据库中,然后调用完成任务接口,该接口需要传两个参数:&lt;br style=&quot;font-size: 16px;&quot;&gt;审批通过:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;退回上一级:&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;background-color: rgb(30, 34, 41); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;taskId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;variables&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;approvalState&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(220, 220, 220);&quot;&gt;:&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3363.12" y="1065" width="261.25" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-78" target="ZJ2Vto5LHIsEKG5cIVXg-82" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-78" value="审批通过后修改业务数据" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4093.75" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-80" target="ZJ2Vto5LHIsEKG5cIVXg-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-80" value="后端新建一个类,&lt;br style=&quot;font-size: 16px;&quot;&gt;com.kdp.web.external.executionlistener.ClassificationResultListener&lt;br style=&quot;font-size: 16px;&quot;&gt;该类需要实现ExecutionListener这个接口,并重写notify方法,在该方法中通过openfeign调用修改业务数据的接口" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="3910" y="380" width="507.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-82" value="至此,流程结束" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4610" y="235" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-89" target="ZJ2Vto5LHIsEKG5cIVXg-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-89" value="查询流程定义" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-290" width="180" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-90" value="type: Get" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-89" vertex="1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-91" value="url:&amp;nbsp;/camunda/definition" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-89" vertex="1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-93" target="ZJ2Vto5LHIsEKG5cIVXg-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-93" value="根据 business_key 批量查询当前仍在运行中的唯一实例" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-420" width="460" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-94" value="type: Get" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-93" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-95" value="url:&amp;nbsp;/camunda/instance/businessKeys" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-93" vertex="1">
+          <mxGeometry y="60" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-97" target="ZJ2Vto5LHIsEKG5cIVXg-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="966" y="-245" />
+              <mxPoint x="966" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-97" value="通过流程定义id启动流程实例" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="660" y="-290" width="240" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-98" value="type: Post" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-97" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-99" value="url:&amp;nbsp;/camunda/instance/id/start" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-97" vertex="1">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-101" target="ZJ2Vto5LHIsEKG5cIVXg-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="-375" />
+              <mxPoint x="1310" y="636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-101" value="根据用户名查询待办任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="910" y="-420" width="240" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-102" value="type: Get" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-101" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-103" value="url:&amp;nbsp;/camunda/task/assignee" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-101" vertex="1">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-105" value="完成任务" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1020.5" y="-290" width="240" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-106" value="type: Post" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-105" vertex="1">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-107" value="url:&amp;nbsp;/camunda/task/complete" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-105" vertex="1">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-106" target="ZJ2Vto5LHIsEKG5cIVXg-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="-245" />
+              <mxPoint x="1340" y="1074" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-106" target="ZJ2Vto5LHIsEKG5cIVXg-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="-245" />
+              <mxPoint x="1840" y="1260" />
+            </Array>
+            <mxPoint x="1719" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-106" target="ZJ2Vto5LHIsEKG5cIVXg-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2440" y="-245" />
+              <mxPoint x="2440" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-106" target="ZJ2Vto5LHIsEKG5cIVXg-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3150" y="-245" />
+              <mxPoint x="3150" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-106" target="ZJ2Vto5LHIsEKG5cIVXg-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3820" y="-245" />
+              <mxPoint x="3820" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-114" value="前端需要在业务数据页面展示该条业务是否是否存在已发起的流程,如果存在发起了的流程,则需要展示该流程当前所在节点,并且还需要展示当前流程目前已经操作过的经办人名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="50" y="945" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-115" target="ZJ2Vto5LHIsEKG5cIVXg-114" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-115" value="可以调用根据 business_key 批量查询当前仍在运行中的唯一实例来判断当前业务数据是否存在发起的流程,存在则使用该接口返回的流程实例id去调用批量查询流程实例当前所处任务节点来查询当前业务数据的流程节点,还需要调用批量查询流程实例所有已处理的经办人接口去查询当前流程目前已经操作过的经办人名单" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1125" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-94" target="ZJ2Vto5LHIsEKG5cIVXg-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="-375" />
+              <mxPoint x="10" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="ZJ2Vto5LHIsEKG5cIVXg-120" target="ZJ2Vto5LHIsEKG5cIVXg-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="-515" />
+              <mxPoint x="-50" y="1252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-120" value="批量查询流程实例所有已处理的经办人" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-560" width="460" height="90" as="geometry">
+            <mxRectangle x="200" y="620" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-121" value="type: Get" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-120" vertex="1">
+          <mxGeometry y="30" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ2Vto5LHIsEKG5cIVXg-122" value="url:/camunda/instance/allAssignees" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZJ2Vto5LHIsEKG5cIVXg-120" vertex="1">
+          <mxGeometry y="60" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
